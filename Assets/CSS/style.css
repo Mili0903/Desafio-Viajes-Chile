@@ -1,0 +1,193 @@
+.navbar {
+    background-color: transparent !important; 
+    position: relative; /* Asegurar que el navbar mantenga su posición relativa */
+  z-index: 1000; /* Ajustar el z-index para que el navbar esté en una capa superior */
+  }
+  
+.navbar-text {
+    color: white !important; /* Texto blanco */
+  }
+  
+  /* Estilos para el contenido de la página */
+.container {
+    margin-top: 5px; /* Margen superior para dejar espacio para el navbar */
+  }
+  .navbar .navbar-nav .nav-link {
+    color: white !important; /* Color blanco para los enlaces del navbar */
+  }
+/* Establecer la imagen como fondo del cuerpo de la página */
+/* Ajustar estilos para que el carousel se extienda hasta el navbar */
+.carousel-section {
+    margin-top: -100px; /* Ajustar el margen superior para que las imágenes cubran el navbar */
+  }
+  
+  .quienes-somos {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 60px 0; /* Espaciado interno */
+  }
+  
+  .quienes-somos-title {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 20px; /* Espacio inferior */
+  }
+  
+  .quienes-somos-line {
+    border-top: 1px solid #888; /* Línea gris */
+    width: 80%; /* Ancho de la línea */
+    margin: 0 auto 20px; /* Margen inferior y centrado */
+  }
+  
+  .quienes-somos-item {
+    text-align: center; /* Centrar el contenido */
+  }
+  
+  .quienes-somos-linea {
+    border-top: 3px solid #00CED1; /* Línea azul turquesa */
+    width: 40px; /* Ancho de la línea */
+    margin: 20px auto; /* Margen superior e inferior y centrado */
+  }
+  
+  .icono {
+    font-size: 24px; /* Tamaño del icono */
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
+  @keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate-once {
+    animation: rotation 2s linear;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #000;
+}
+
+/* CSS */
+.blue-background {
+    background-color: #00CED1; /* Color azul turquesa */
+    color: white; /* Texto en color blanco */
+    padding: 5px 10px; /* Ajuste del padding para mayor legibilidad */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.quienes-somos {
+    color: #fff; /* Texto blanco */
+    padding: 60px 0; /* Espaciado interno */
+}
+
+.quienes-somos .card {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    border: none; /* Eliminar borde */
+}
+
+.quienes-somos .card-title {
+    background-color: #00CED1; /* Color azul turquesa */
+    color: white; /* Texto en color blanco */
+    padding: 10px; /* Ajuste del padding */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Margen inferior */
+}
+.card-title {
+    text-align: center; /* Centrar el contenido del título */
+}
+
+.icon-white {
+    color: white;
+    display: block; /* Convertir el icono en un bloque para poder centrarlo */
+    margin: auto; /* Establecer márgenes automáticos para centrarlo horizontalmente */
+}
+
+
+.destacados-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destacados-line {
+    border-top: 1px solid #888;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.destacados-card {
+    background-color: #00CED1; /* Fondo azul turquesa */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 0; /* Bordes rectos */
+}
+
+.destacados-card .card-body {
+    padding: 15px; /* Ajuste del padding */
+}
+
+.destacados-card .card-text {
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.destacados-title {
+    color: #fff;
+}
+.destacados-card img {
+    height: 200px; /* Establece la altura deseada para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor manteniendo su relación de aspecto */
+}
+
+.contacto-title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    color: white;
+}
+
+.contacto-line {
+    border-top: 1px solid #888;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+#Contacto label,
+#Contacto .form-control {
+    color: white !important;
+}
+
+/* CSS */
+#messageInput {
+    height: 200px; /* Establece la altura deseada para el textarea */
+}
+#Contacto {
+    margin-bottom: 40px; /* Ajusta el valor según sea necesario para agregar espacio entre la sección anterior y el footer */
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footer-text {
+    margin-left: 80px; /* Ajusta el espacio a la izquierda del texto */
+    font-size: 20px;
+}
+#iconosfooter .fa-brands {
+    font-size: 33px; /* Tamaño deseado para los iconos */
+    margin-right: 10px; /* Espacio entre los iconos */
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
