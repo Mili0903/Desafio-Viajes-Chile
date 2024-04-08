@@ -1,56 +1,54 @@
 .navbar {
     background-color: transparent !important; 
-    position: relative; /* Asegurar que el navbar mantenga su posición relativa */
-  z-index: 1000; /* Ajustar el z-index para que el navbar esté en una capa superior */
-  }
+    position: relative; 
+  z-index: 1000; 
+}
   
 .navbar-text {
-    color: white !important; /* Texto blanco */
-  }
+    color: white !important; 
+}
   
-  /* Estilos para el contenido de la página */
 .container {
-    margin-top: 5px; /* Margen superior para dejar espacio para el navbar */
+    margin-top: 5px; 
+}
+.navbar .navbar-nav .nav-link {
+    color: white !important; 
   }
-  .navbar .navbar-nav .nav-link {
-    color: white !important; /* Color blanco para los enlaces del navbar */
-  }
-/* Establecer la imagen como fondo del cuerpo de la página */
-/* Ajustar estilos para que el carousel se extienda hasta el navbar */
+
 .carousel-section {
-    margin-top: -100px; /* Ajustar el margen superior para que las imágenes cubran el navbar */
+    margin-top: -100px; 
   }
   
   .quienes-somos {
-    background-color: #000; /* Fondo negro */
-    color: #fff; /* Texto blanco */
-    padding: 60px 0; /* Espaciado interno */
+    background-color: #000; 
+    color: #fff; 
+    padding: 60px 0; 
   }
   
   .quienes-somos-title {
-    text-align: center; /* Centrar el título */
-    margin-bottom: 20px; /* Espacio inferior */
+    text-align: center; 
+    margin-bottom: 20px; 
   }
   
   .quienes-somos-line {
-    border-top: 1px solid #888; /* Línea gris */
-    width: 80%; /* Ancho de la línea */
-    margin: 0 auto 20px; /* Margen inferior y centrado */
+    border-top: 1px solid #888; 
+    width: 80%; 
+    margin: 0 auto 20px; 
   }
   
   .quienes-somos-item {
-    text-align: center; /* Centrar el contenido */
+    text-align: center; 
   }
   
   .quienes-somos-linea {
-    border-top: 3px solid #00CED1; /* Línea azul turquesa */
-    width: 40px; /* Ancho de la línea */
-    margin: 20px auto; /* Margen superior e inferior y centrado */
+    border-top: 3px solid #00CED1; 
+    width: 40px; 
+    margin: 20px auto; 
   }
   
   .icono {
-    font-size: 24px; /* Tamaño del icono */
-    margin-bottom: 10px; /* Espacio inferior */
+    font-size: 24px; 
+    margin-bottom: 10px; 
   }
   
   @keyframes rotation {
@@ -72,38 +70,38 @@ body {
 
 /* CSS */
 .blue-background {
-    background-color: #00CED1; /* Color azul turquesa */
-    color: white; /* Texto en color blanco */
-    padding: 5px 10px; /* Ajuste del padding para mayor legibilidad */
-    border-radius: 5px; /* Bordes redondeados */
+    background-color: #00CED1; 
+    color: white;
+    padding: 5px 10px; 
+    border-radius: 5px; 
 }
 
 .quienes-somos {
-    color: #fff; /* Texto blanco */
-    padding: 60px 0; /* Espaciado interno */
+    color: #fff; 
+    padding: 60px 0;
 }
 
 .quienes-somos .card {
-    background-color: #000; /* Fondo negro */
-    color: #fff; /* Texto blanco */
-    border: none; /* Eliminar borde */
+    background-color: #000; 
+    color: #fff; 
+    border: none; 
 }
 
 .quienes-somos .card-title {
-    background-color: #00CED1; /* Color azul turquesa */
-    color: white; /* Texto en color blanco */
-    padding: 10px; /* Ajuste del padding */
-    border-radius: 5px; /* Bordes redondeados */
-    margin-bottom: 10px; /* Margen inferior */
+    background-color: #00CED1; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
 }
 .card-title {
-    text-align: center; /* Centrar el contenido del título */
+    text-align: center; 
 }
 
 .icon-white {
     color: white;
-    display: block; /* Convertir el icono en un bloque para poder centrarlo */
-    margin: auto; /* Establecer márgenes automáticos para centrarlo horizontalmente */
+    display: block; 
+    margin: auto; 
 }
 
 
@@ -119,26 +117,26 @@ body {
 }
 
 .destacados-card {
-    background-color: #00CED1; /* Fondo azul turquesa */
-    color: #fff; /* Texto blanco */
-    border: none; /* Sin borde */
-    border-radius: 0; /* Bordes rectos */
+    background-color: #00CED1; 
+    color: #fff; 
+    border: none; 
+    border-radius: 0; 
 }
 
 .destacados-card .card-body {
-    padding: 15px; /* Ajuste del padding */
+    padding: 15px; 
 }
 
 .destacados-card .card-text {
-    font-size: 16px; /* Tamaño de fuente */
+    font-size: 16px; 
 }
 
 .destacados-title {
     color: #fff;
 }
 .destacados-card img {
-    height: 200px; /* Establece la altura deseada para las imágenes */
-    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor manteniendo su relación de aspecto */
+    height: 200px; 
+    object-fit: cover; 
 }
 
 .contacto-title {
@@ -159,12 +157,11 @@ body {
     color: white !important;
 }
 
-/* CSS */
 #messageInput {
-    height: 200px; /* Establece la altura deseada para el textarea */
+    height: 200px; 
 }
 #Contacto {
-    margin-bottom: 40px; /* Ajusta el valor según sea necesario para agregar espacio entre la sección anterior y el footer */
+    margin-bottom: 40px; 
 }
 
 .footer {
@@ -172,12 +169,12 @@ body {
     padding-bottom: 10px;
 }
 .footer-text {
-    margin-left: 80px; /* Ajusta el espacio a la izquierda del texto */
+    margin-left: 80px; 
     font-size: 20px;
 }
 #iconosfooter .fa-brands {
-    font-size: 33px; /* Tamaño deseado para los iconos */
-    margin-right: 10px; /* Espacio entre los iconos */
+    font-size: 33px; 
+    margin-right: 10px; 
     color: white;
 }
 
