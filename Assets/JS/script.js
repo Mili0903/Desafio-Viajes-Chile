@@ -28,4 +28,33 @@ $('[data-toggle="tooltip"]').tooltip();
     title.slideDown('slow');
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    const socialIcons = document.querySelectorAll('.social-icon');
+
+    socialIcons.forEach(icon => {
+        icon.addEventListener('mouseover', () => {
+            const tooltip = document.createElement('div');
+            tooltip.classList.add('tooltip');
+            tooltip.innerText = 'Presiona para redirigir a la Página';
+            document.body.appendChild(tooltip);
+
+            const iconRect = icon.getBoundingClientRect();
+            tooltip.style.top = iconRect.bottom + 'px';
+            tooltip.style.left = iconRect.left + 'px';
+        });
+
+        icon.addEventListener('mouseleave', () => {
+            const tooltip = document.querySelector('.tooltip');
+            if (tooltip) {
+                tooltip.remove();
+            }
+        });
+    });
+});
+
+
+
+
+
+
 
